@@ -1,0 +1,69 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.game {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  place-content: center;
+  gap: 10px;
+}
+
+.square {
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  font-size: 50px;
+}
+
+.value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.sectionWinner {
+  position: absolute;
+  display: flex;
+  width: 200px;
+  height: 250px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #242424;
+  border: 1px solid white;
+}
+
+.divWinner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btnRestart {
+  background-color: #242424;
+  color: white;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
